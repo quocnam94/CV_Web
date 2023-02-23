@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+  .my-text {
+    width: 384px;
+  }
+  .cer_app::before {
+    display: none;
+  }
+  .cer_CSS::before {
+    display: none;
+  }
+  .detail {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media (max-width: 992px) {
+  .nav-bar__img {
+    display: none;
+  }
+  .cer_web,
+  .cer_app,
+  .cer_HTML,
+  .cer_CSS {
+    flex-direction: column;
+  }
+  .cer_web img,
+  .cer_app img,
+  .cer_HTML img,
+  .cer_CSS img {
+    height: unset;
+    width: 100%;
+  }
+  .web_detail,
+  .app_detail,
+  .HTML_detail,
+  .CSS_detail {
+    margin-top: 12px;
+  }
+  .detail div {
+    display: flex;
+    flex-direction: column;
+  }
+}

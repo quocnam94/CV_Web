@@ -1,0 +1,71 @@
+/* reset css */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* headline */
+h3 {
+  color: blue !important;
+  border-bottom: solid 2px lightgray;
+  padding-bottom: 10px;
+}
+h4 {
+  padding-bottom: 10px;
+}
+/* timeline */
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0 !important;
+}
+.height_100 {
+  height: 100%;
+}
+/* icon */
+.bi {
+  font-size: 28px;
+}
+/* gạch ngang */
+.goal {
+  border-bottom: solid 2px lightgray;
+}
+.timeline {
+  border-bottom: dotted 2px lightblue;
+  padding: 0 !important;
+}
+/* border */
+.goals,
+.team,
+.scope,
+.primary,
+.timelines {
+  border: 10px solid blue;
+}
+.row {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+@media (min-width: 992px) {
+  .goals {
+    padding-bottom: 50px;
+  }
+  .team,
+  .primary,
+  .timelines {
+    border-left: none;
+  }
+  .goals,
+  .team {
+    border-bottom: none;
+  }
+}
+@media (max-width: 992px) {
+  .goals,
+  .team,
+  .scope,
+  .primary {
+    border-bottom: none;
+  }
+}

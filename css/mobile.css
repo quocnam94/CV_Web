@@ -1,0 +1,37 @@
+@media (max-width: 576px) {
+  .my-text h1 {
+    font-size: 30px;
+  }
+  .info {
+    padding: 12px 0 12px 40px;
+    text-align: left;
+  }
+  .info::before,
+  .info::after {
+    display: none;
+  }
+  .display-none {
+    display: none !important;
+  }
+  .cer_app::before {
+    display: none;
+  }
+  .cer_CSS::before {
+    display: none;
+  }
+  .cer_web,
+  .cer_app,
+  .cer_HTML {
+    margin-bottom: 24px;
+    border-bottom: 2px solid #d6c08d;
+  }
+  table {
+    border-collapse: collapse;
+    line-height: 1.5;
+    height: 226px;
+    width: 100%;
+  }
+  #footer a {
+    display: none;
+  }
+}
